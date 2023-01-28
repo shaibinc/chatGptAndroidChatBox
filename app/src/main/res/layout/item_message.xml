@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/round_cornner"
+    android:layout_margin="10dp"
+    android:padding="7dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/text_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:text="me"
+        android:textStyle="bold"
+        android:textColor="#2C517A"
+        android:paddingStart="5dp"/>
+    <TextView
+        android:id="@+id/text_message"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:text="Ask Anything you want"
+        android:textColor="#000000"
+        android:paddingStart="5dp" />
+
+    <TextView
+        android:id="@+id/text_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="12sp"
+        android:layout_gravity="right"
+        android:text="12:20"
+        android:textColor="#999999"
+        android:paddingStart="16dp"
+        android:paddingEnd="8dp"
+        android:paddingBottom="5dp"/>
+</LinearLayout>
